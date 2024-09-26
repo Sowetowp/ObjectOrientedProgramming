@@ -14,4 +14,4 @@ class profile {
     }
 }
 
-const 
+const myProfile = new profile()
