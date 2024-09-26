@@ -44,4 +44,8 @@ console.log(prompt.specialAdd(5))
 
 // Class Inheritance
 // where you can derive a class from another class to form a hierarchy of classes that share a set of attributes and methods.
-class detailed extends calculator 
+class detailedProfile extends profile{
+    constructor(){
+        super()
+    }
+} 
