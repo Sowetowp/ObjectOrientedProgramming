@@ -6,5 +6,5 @@ class className {
 }
 
 class profile{
-    constructor(name, age, )
+    constructor(name, age, dob)
 }
