@@ -31,3 +31,5 @@ class calculator{
         return this.a + this.b
     }
 }
+
+const 
