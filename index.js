@@ -86,6 +86,24 @@ person.fullName = 'Jane Smith';  // Sets the new name
 console.log(person.fullName);
 // note how we didn't invoke fullname method
 
+class Car {
+    constructor(name) {
+      this.name = name;
+    }
+    static hello() {
+      return "Hello!!";
+    }
+  }
+  
+  const myCar = new Car("Ford");
+  
+  // You can call 'hello()' on the Car Class:
+  document.getElementById("demo").innerHTML = Car.hello();
+  
+  // But NOT on a Car Object:
+  // document.getElementById("demo").innerHTML = myCar.hello();
+  // this will raise an error.
+  
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting
 
 
