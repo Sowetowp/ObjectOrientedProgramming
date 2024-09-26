@@ -14,4 +14,4 @@ class profile {
     }
 }
 
-const myProfile = new profile(abdulmalik, )
+const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10")
