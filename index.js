@@ -30,7 +30,7 @@ class calculator{
     add(){
         return this.a + this.b
     }
-    add(){
+    specialAdd(){
         return this.a + this.b
     }
 }
