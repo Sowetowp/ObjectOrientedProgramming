@@ -28,6 +28,6 @@ class calculator{
     }
 
     add(){
-        
+        this.a + this.b
     }
 }
