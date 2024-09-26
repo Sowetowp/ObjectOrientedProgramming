@@ -95,7 +95,7 @@ class Car {
     }
 }
   
-  const myCar = new Car("Ford");
+const myCar = new Car("Ford");
   
   // You can call 'hello()' on the Car Class:
   console.log(Car.hello());
