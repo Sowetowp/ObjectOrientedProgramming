@@ -23,6 +23,11 @@ console.log(myProfile)
 // class methods
 class calculator{
     constructor(a, b){
+        this.a = a;
+        this.b = b;
+    }
+
+    add(){
         
     }
 }
