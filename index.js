@@ -86,7 +86,7 @@ person.fullName = 'Jane Smith';  // Sets the new name
 console.log(person.fullName);
 // note how we didn't invoke fullname method
 
-class Car {
+class Language {
     constructor(name) {
       this.name = name;
     }
