@@ -54,3 +54,4 @@ class detailedProfile extends profile {
         return `${this.firstName} is a ${this.age}-years-old ${this.role}`
     }
 } 
+
