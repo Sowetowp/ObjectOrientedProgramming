@@ -95,13 +95,13 @@ class Language {
     }
 }
   
-const myLanguage = new Car("Ford");
+const myLanguage = new Language("Ford");
   
-// You can call 'hello()' on the Car Class:
-console.log(Car.hello());
+// You can call 'hello()' on the Language Class:
+console.log(Language.hello());
 
-// But NOT on a Car Object:
-// console.log(myCar.hello());
+// But NOT on a Language Object:
+// console.log(myLanguage.hello());
 // this will raise an error.
   
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting
