@@ -11,8 +11,8 @@ class profile {
         this.lastName = lastName;
         this.age = age;
         this.dob = dob;
-        this.address=this.address
+        this.address = this.address
     }
 }
 
-const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "")
+const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeria")
