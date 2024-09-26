@@ -101,7 +101,7 @@ const myLanguage = new Language("Ford");
 console.log(Language.hello());
 
 // But NOT on a Language Object:
-console.log(myLanguage.hello());
+// console.log(myLanguage.hello());
 // this will raise an error.
   
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting
