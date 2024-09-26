@@ -97,7 +97,7 @@ class Language {
   
 const myLanguage = new Language("Ford");
   
-// You can call 'hello()' on the Car Class:
+// You can call 'hello()' on the language Class:
 console.log(Language.hello());
 
 // But NOT on a Car Object:
