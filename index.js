@@ -84,4 +84,4 @@ class Person {
   const person = new Person('John', 'Doe');
   person.fullName = 'Jane Smith';  // Sets the new name
   console.log(person.fullName);  // Output: Jane Smith
-//   
+// note how we didn't invoke fullname  
