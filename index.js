@@ -47,5 +47,6 @@ console.log(prompt.specialAdd(5))
 class detailedProfile extends profile{
     constructor(firstName, lastName, age, dob, address, skill){
         super(firstName, lastName, age, dob, address)
+        
     }
 } 
