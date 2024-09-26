@@ -1,4 +1,4 @@
-// 
+// sample
 class className {
     constructor() {
 
