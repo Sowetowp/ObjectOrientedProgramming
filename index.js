@@ -21,4 +21,12 @@ const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeri
 console.log(myProfile)
 
 // class methods
-class 
+class profile {
+    constructor(firstName, lastName, age, dob, address) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.dob = dob;
+        this.address = address
+    }
+}
