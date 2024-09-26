@@ -50,5 +50,7 @@ class detailedProfile extends profile {
         this.skill = skill;
     }
 
-    bio()
+    bio(){
+        return `${this.firstName} is a `
+    }
 } 
