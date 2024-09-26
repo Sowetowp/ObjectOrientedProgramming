@@ -57,3 +57,5 @@ class detailedProfile extends profile {
 
 const myProfile2 = new detailedProfile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeria", "fullstack developer")
 console.log(myProfile2.bio())
+
+// getter
