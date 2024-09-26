@@ -32,4 +32,5 @@ class calculator{
     }
 }
 
-const prompt = 
+const prompt = new calculator(2, 4)
+console.log(prompt.add())
