@@ -1,3 +1,4 @@
+// class: a template for JavaScript objects
 // structure
 class className {
     constructor() {
