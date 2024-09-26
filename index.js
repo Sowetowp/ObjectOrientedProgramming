@@ -23,7 +23,7 @@ const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeri
 console.log(myProfile)
 
 // class methods
-// this is basically what encapsulation is: describes the bundling of data and methods operating on this data into one unit.
+// this is basically what encapsulation is: the bundling of data and methods operating on this data into one unit.
 class calculator{
     constructor(a, b){
         this.a = a;
