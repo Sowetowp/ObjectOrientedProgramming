@@ -93,7 +93,7 @@ class Car {
     static hello() {
       return "Hello!!";
     }
-  }
+}
   
   const myCar = new Car("Ford");
   
