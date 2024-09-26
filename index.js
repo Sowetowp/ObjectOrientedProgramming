@@ -28,6 +28,6 @@ class calculator{
     }
 
     add(){
-        console.log(this.a + this.b)
+        return this.a + this.b
     }
 }
