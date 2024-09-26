@@ -55,4 +55,4 @@ class detailedProfile extends profile {
     }
 } 
 
-const 
+const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeria")
