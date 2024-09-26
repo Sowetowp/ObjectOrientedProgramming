@@ -43,3 +43,4 @@ console.log(prompt.add())
 console.log(prompt.specialAdd(5))
 
 // Class Inheritance
+// 
