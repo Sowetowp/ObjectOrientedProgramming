@@ -24,16 +24,16 @@ console.log(myProfile)
 
 // class methods
 // this is basically what encapsulation is: the bundling of data and methods operating on this data into one unit.
-class calculator{
-    constructor(a, b){
+class calculator {
+    constructor(a, b) {
         this.a = a;
         this.b = b;
     }
 
-    add(){
+    add() {
         return this.a + this.b
     }
-    specialAdd(x){
+    specialAdd(x) {
         return this.a + this.b + x
     }
 }
@@ -44,9 +44,9 @@ console.log(prompt.specialAdd(5))
 
 // Class Inheritance
 // where you can derive a class from another class to form a hierarchy of classes that share a set of attributes and methods.
-class detailedProfile extends profile{
-    constructor(firstName, lastName, age, dob, address, skill){
+class detailedProfile extends profile {
+    constructor(firstName, lastName, age, dob, address, skill) {
         super(firstName, lastName, age, dob, address)
-        this.skill=
+        this.skill = skill;
     }
 } 
