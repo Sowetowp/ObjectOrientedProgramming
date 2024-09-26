@@ -45,12 +45,12 @@ console.log(prompt.specialAdd(5))
 // Class Inheritance
 // where you can derive a class from another class to form a hierarchy of classes that share a set of attributes and methods.
 class detailedProfile extends profile {
-    constructor(firstName, lastName, age, dob, address, skill) {
+    constructor(firstName, lastName, age, dob, address, role) {
         super(firstName, lastName, age, dob, address)
-        this.skill = skill;
+        this.role = role;
     }
 
     bio(){
-        return `${this.firstName} is a ${this.age}-years-old ${this.skill}`
+        return `${this.firstName} is a ${this.age}-years-old ${this.role}`
     }
 } 
