@@ -49,4 +49,6 @@ class detailedProfile extends profile {
         super(firstName, lastName, age, dob, address)
         this.skill = skill;
     }
+
+    bio()
 } 
