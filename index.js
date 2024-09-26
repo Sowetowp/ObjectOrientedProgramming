@@ -11,7 +11,7 @@ class profile {
         this.lastName = lastName;
         this.age = age;
         this.dob = dob;
-        this.address
+        this.address=this.address
     }
 }
 
