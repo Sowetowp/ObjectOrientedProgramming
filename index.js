@@ -50,10 +50,10 @@ class detailedProfile extends profile {
         this.role = role;
     }
 
-    bio(){
+    bio() {
         return `${this.firstName} is a ${this.age}-years-old ${this.role}`
     }
-} 
+}
 
 const myProfile2 = new detailedProfile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeria", "fullstack developer")
 console.log(myProfile2.bio())
