@@ -42,3 +42,4 @@ const prompt = new calculator(2, 4)
 console.log(prompt.add())
 console.log(prompt.specialAdd(5))
 
+// Class Inheritance
