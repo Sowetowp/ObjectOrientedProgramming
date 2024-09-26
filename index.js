@@ -51,6 +51,6 @@ class detailedProfile extends profile {
     }
 
     bio(){
-        return `${this.firstName} is a ${this.age} years old `
+        return `${this.firstName} is a ${this.age} years old ${this.skill}`
     }
 } 
