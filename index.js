@@ -6,11 +6,11 @@ class className {
 }
 
 class profile {
-    constructor(firstName, lastName, age, ad) {
+    constructor(firstName, lastName, age, location) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.ad = ad;
+        this.location = location;
     }
 }
 
