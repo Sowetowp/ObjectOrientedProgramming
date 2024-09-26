@@ -21,3 +21,4 @@ const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeri
 console.log(myProfile)
 
 // class methods
+class 
