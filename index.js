@@ -83,5 +83,5 @@ class Person {
 
 const person = new Person('John', 'Doe');
 person.fullName = 'Jane Smith';  // Sets the new name
-console.log(person.fullName);  // Output: Jane Smith
+console.log(person.fullName);
 // note how we didn't invoke fullname  
