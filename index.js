@@ -20,4 +20,4 @@ class profile {
 const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeria")
 console.log(myProfile)
 
-// 
+// class methods
