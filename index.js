@@ -1,4 +1,4 @@
-// sample
+// structure
 class className {
     constructor() {
 
