@@ -98,10 +98,10 @@ class Car {
   const myCar = new Car("Ford");
   
   // You can call 'hello()' on the Car Class:
-  document.getElementById("demo").innerHTML = Car.hello();
+  clgCar.hello();
   
   // But NOT on a Car Object:
-  // document.getElementById("demo").innerHTML = myCar.hello();
+  // clgmyCar.hello();
   // this will raise an error.
   
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting
