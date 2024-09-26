@@ -55,4 +55,4 @@ class detailedProfile extends profile {
     }
 } 
 
-const detailedP
+const 
