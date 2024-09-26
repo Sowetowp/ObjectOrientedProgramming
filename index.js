@@ -5,6 +5,7 @@ class className {
     }
 }
 
+
 class profile {
     constructor(firstName, lastName, age, dob, address) {
         this.firstName = firstName;
