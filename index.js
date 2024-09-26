@@ -43,4 +43,4 @@ console.log(prompt.add())
 console.log(prompt.specialAdd(5))
 
 // Class Inheritance
-// 
+// where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.
