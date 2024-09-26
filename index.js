@@ -6,7 +6,7 @@ class className {
 }
 
 class profile {
-    constructor(firstName, lastName, age, dob) {
+    constructor(firstName, lastName, age, dob, address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -15,4 +15,4 @@ class profile {
     }
 }
 
-const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10")
+const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "")
