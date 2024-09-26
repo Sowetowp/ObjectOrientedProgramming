@@ -95,7 +95,7 @@ class Language {
     }
 }
   
-const myCar = new Car("Ford");
+const myLanguage = new Car("Ford");
   
 // You can call 'hello()' on the Car Class:
 console.log(Car.hello());
