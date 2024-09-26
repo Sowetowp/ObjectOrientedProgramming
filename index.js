@@ -101,7 +101,7 @@ class Car {
   console.log(Car.hello());
   
   // But NOT on a Car Object:
-  // console.log(myCar.hello();
+  // console.log(myCar.hello());
   // this will raise an error.
   
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting
