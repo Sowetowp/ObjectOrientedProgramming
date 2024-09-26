@@ -5,4 +5,6 @@ class className {
     }
 }
 
-class 
+class profile{
+    constructor(name, age, )
+}
