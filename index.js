@@ -59,3 +59,29 @@ const myProfile2 = new detailedProfile("Abdulmalik", "Amzat", 23, "28/10", "Lago
 console.log(myProfile2.bio())
 
 // getter/setter
+class Person {
+    constructor(firstName, lastName) {
+      this._firstName = firstName;
+      this._lastName = lastName;
+    }
+  
+    // Setter for full name
+    set fullName(value) {
+      const parts = value.split(' ');
+      if (parts.length === 2) {
+        this._firstName = parts[0];
+        this._lastName = parts[1];
+      } else {
+        throw new Error('Invalid full name');
+      }
+    }
+  
+    get fullName() {
+      return `${this._firstName} ${this._lastName}`;
+    }
+  }
+  
+  const person = new Person('John', 'Doe');
+  person.fullName = 'Jane Smith';  // Sets the new name
+  console.log(person.fullName);  // Output: Jane Smith
+  
