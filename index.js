@@ -30,6 +30,9 @@ class calculator{
     add(){
         return this.a + this.b
     }
+    add(){
+        return this.a + this.b
+    }
 }
 
 const prompt = new calculator(2, 4)
