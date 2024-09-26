@@ -32,4 +32,4 @@ class calculator{
     }
 }
 
-const 
+const prompt = 
