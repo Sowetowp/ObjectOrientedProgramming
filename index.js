@@ -86,7 +86,7 @@ person.fullName = 'Jane Smith';  // Sets the new name
 console.log(person.fullName);
 // note how we didn't invoke fullname method
 
-
+// ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting
 
 
 // NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it
