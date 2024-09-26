@@ -85,3 +85,6 @@ const person = new Person('John', 'Doe');
 person.fullName = 'Jane Smith';  // Sets the new name
 console.log(person.fullName);
 // note how we didn't invoke fullname method
+
+
+// NOTE: Unlike functions, and other JavaScript declarations, class declarations are not hoisted. That means that you must declare a class before you can use it
