@@ -23,7 +23,7 @@ const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeri
 console.log(myProfile)
 
 // class methods
-// this is basically 
+// this is basically what encapsulation is
 class calculator{
     constructor(a, b){
         this.a = a;
