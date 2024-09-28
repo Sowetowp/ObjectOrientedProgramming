@@ -106,6 +106,40 @@ console.log(Language.hello());
 // this will raise an error.
   
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting.
-
+class Car {
+    constructor(brand) {
+      this.brand = brand;
+      this.speed = 0;
+    }
+  
+    // Public method to start the car
+    start() {
+      console.log(`${this.brand} car started.`);
+      this._startEngine();
+    }
+  
+    // Public method to accelerate
+    accelerate() {
+      this.speed += 10;
+      console.log(`${this.brand} is accelerating. Speed: ${this.speed} km/h`);
+    }
+  
+    // Public method to stop the car
+    stop() {
+      this.speed = 0;
+      console.log(`${this.brand} has stopped.`);
+    }
+  
+    // Private method to start the engine (abstraction)
+    _startEngine() {
+      console.log("Engine started. Ready to go!");
+    }
+  }
+  
+  const myCar = new Car("Toyota");
+  myCar.start();     // Accessible
+  myCar.accelerate(); // Accessible
+  myCar.stop();       // Accessible
+  
 
 // NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it.
