@@ -143,5 +143,5 @@ myBus.start();     // Accessible
 myBus.accelerate(); // Accessible
 myBus.stop();       // Accessible
 
-
+// Polymorphism: in programming gives a program the ability to redefine methods for derived classes
 // NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it.
