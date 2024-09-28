@@ -11,6 +11,6 @@ This script is a simple Javascript code that requires ES6 support. Please ensure
 1. Clone the repository to your local machine:
    git clone https://github.com/Sowetowp/ObjectOrientedProgramming.git
 2. Navigate to the project directory
-   cd your-repo
+   cd ObjectOrientedProgramming
 3. To run the script, use the following command
    node index.js
