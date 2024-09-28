@@ -9,5 +9,4 @@ This script is a simple Javascript code that requires ES6 support. Please ensure
 ## Getting Started
 
 1. Clone the repository to your local machine:
-   ```bash
    git clone https://github.com/your-username/your-repo.git
