@@ -105,7 +105,7 @@ console.log(Language.hello());
 // console.log(myLanguage.hello());
 // this will raise an error.
   
-// ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting
+// ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting.
 
 
 // NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it.
