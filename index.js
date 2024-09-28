@@ -107,6 +107,7 @@ console.log(Language.hello());
 
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting.
 // The internal method _startEngine() is a private method that handles the engine start, hidden from the user. When the user calls the start() method, they don't need to know the details of how the engine is started
+
 class Bus {
     constructor(brand) {
         this.brand = brand;
