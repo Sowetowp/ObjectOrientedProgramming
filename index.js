@@ -2,7 +2,7 @@
 // You will get an error if you do not follow the "strict mode" rules.
 
 // structure
-class className {
+class ClassName {
     constructor() {
 
     }
