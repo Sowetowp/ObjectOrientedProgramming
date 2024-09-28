@@ -144,6 +144,7 @@ myBus.accelerate(); // Accessible
 myBus.stop();       // Accessible
 
 // Polymorphism: in programming gives a program the ability to redefine methods for derived classes
+// The base class Animal defines a method makeSound(). Each subclass (Dog, Cat, and Cow) overrides this method to provide its own specific behavior.
 class Animal {
     // Base class method
     makeSound() {
