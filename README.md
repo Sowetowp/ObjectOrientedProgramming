@@ -4,7 +4,7 @@
 This script is a simple Javascript code that requires ES6 support. Please ensure your Node.js environment can process ES6 syntax before running the script.
 
 ## Requirements
-- **Node.js**: Make sure you have Node.js installed on your machine. This project requires Node.js version 6 or higher to support ES6 syntax. You can download it from [here](https://nodejs.org/).
+- **Node.js**: Make sure you have Node.js installed on your machine. This project requires Node.js version 6 or higher to support ES6 syntax.
 
 ## Getting Started
 
