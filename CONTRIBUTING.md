@@ -10,6 +10,6 @@ Thanks for taking the time to contribute! Here’s how you can help:
 4. Open a pull request on the original repository.
 
 ## Guidelines:
-- Follow the code style.
+- do as you like.
 - Ensure tests pass (if applicable).
 - Add descriptive commit messages.
