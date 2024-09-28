@@ -106,15 +106,15 @@ console.log(Language.hello());
 // this will raise an error.
   
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting.
-class Car {
+class Bus {
     constructor(brand) {
       this.brand = brand;
       this.speed = 0;
     }
   
-    // Public method to start the car
+    // Public method to start the Bus
     start() {
-      console.log(`${this.brand} car started.`);
+      console.log(`${this.brand} Bus started.`);
       this._startEngine();
     }
   
@@ -124,7 +124,7 @@ class Car {
       console.log(`${this.brand} is accelerating. Speed: ${this.speed} km/h`);
     }
   
-    // Public method to stop the car
+    // Public method to stop the Bus
     stop() {
       this.speed = 0;
       console.log(`${this.brand} has stopped.`);
@@ -136,10 +136,10 @@ class Car {
     }
   }
   
-  const myCar = new Car("Toyota");
-  myCar.start();     // Accessible
-  myCar.accelerate(); // Accessible
-  myCar.stop();       // Accessible
+  const myBus = new Bus("Toyota");
+  myBus.start();     // Accessible
+  myBus.accelerate(); // Accessible
+  myBus.stop();       // Accessible
   
 
 // NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it.
