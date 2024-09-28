@@ -11,5 +11,5 @@ Thanks for taking the time to contribute! Here’s how you can help:
 
 ## Guidelines:
 - do as you like.
-- Ensure tests pass (if applicable).
+- Ensure .
 - Add descriptive commit messages.
