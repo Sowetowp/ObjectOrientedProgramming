@@ -147,36 +147,36 @@ myBus.stop();       // Accessible
 class Animal {
     // Base class method
     makeSound() {
-      console.log("This animal makes a sound");
+        console.log("This animal makes a sound");
     }
-  }
-  
-  class Dog extends Animal {
+}
+
+class Dog extends Animal {
     // Overriding the makeSound method
     makeSound() {
-      console.log("Dog barks: Woof Woof!");
+        console.log("Dog barks: Woof Woof!");
     }
-  }
-  
-  class Cat extends Animal {
+}
+
+class Cat extends Animal {
     // Overriding the makeSound method
     makeSound() {
-      console.log("Cat meows: Meow Meow!");
+        console.log("Cat meows: Meow Meow!");
     }
-  }
-  
-  class Cow extends Animal {
+}
+
+class Cow extends Animal {
     // Overriding the makeSound method
     makeSound() {
-      console.log("Cow moos: Moo Moo!");
+        console.log("Cow moos: Moo Moo!");
     }
-  }
-  
-  // Polymorphism in action
-  const animals = [new Dog(), new Cat(), new Cow()];
-  
-  animals.forEach((animal) => {
+}
+
+// Polymorphism in action
+const animals = [new Dog(), new Cat(), new Cow()];
+
+animals.forEach((animal) => {
     animal.makeSound(); // Each animal calls its own overridden makeSound method
-  });
-  
+});
+
 // NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it.
