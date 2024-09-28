@@ -144,5 +144,39 @@ myBus.accelerate(); // Accessible
 myBus.stop();       // Accessible
 
 // Polymorphism: in programming gives a program the ability to redefine methods for derived classes
-
+class Animal {
+    // Base class method
+    makeSound() {
+      console.log("This animal makes a sound");
+    }
+  }
+  
+  class Dog extends Animal {
+    // Overriding the makeSound method
+    makeSound() {
+      console.log("Dog barks: Woof Woof!");
+    }
+  }
+  
+  class Cat extends Animal {
+    // Overriding the makeSound method
+    makeSound() {
+      console.log("Cat meows: Meow Meow!");
+    }
+  }
+  
+  class Cow extends Animal {
+    // Overriding the makeSound method
+    makeSound() {
+      console.log("Cow moos: Moo Moo!");
+    }
+  }
+  
+  // Polymorphism in action
+  const animals = [new Dog(), new Cat(), new Cow()];
+  
+  animals.forEach((animal) => {
+    animal.makeSound(); // Each animal calls its own overridden makeSound method
+  });
+  
 // NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it.
