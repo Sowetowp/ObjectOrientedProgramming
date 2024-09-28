@@ -1,4 +1,4 @@
-# Project Name
+# OOP Note
 
 ## Description
 This project is a simple Node.js application that requires ES6 support. Please ensure your Node.js environment can process ES6 syntax before running the script.
