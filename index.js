@@ -154,9 +154,9 @@ class Animal {
 
 class Dog extends Animal {
     // Overriding the makeSound method
-    makeSound() {
-        console.log("Dog barks: Woof Woof!");
-    }
+    // makeSound() {
+    //     console.log("Dog barks: Woof Woof!");
+    // }
 }
 
 class Cat extends Animal {
