@@ -12,5 +12,5 @@ This script is a simple Javascript code that requires ES6 support. Please ensure
    git clone https://github.com/your-username/your-repo.git
 2. Navigate to the project directory
    cd your-repo
-3. 
+3. To run the script, use the following command
 
