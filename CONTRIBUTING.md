@@ -11,5 +11,5 @@ Thanks for taking the time to contribute! Here’s how you can help:
 
 ## Guidelines:
 - do as you like.
-- Ensure .
+- Ensure it's error free.
 - Add descriptive commit messages.
