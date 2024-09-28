@@ -108,4 +108,4 @@ console.log(Language.hello());
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting
 
 
-// NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it
+// NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it.
