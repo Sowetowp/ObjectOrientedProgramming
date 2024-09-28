@@ -13,4 +13,4 @@ This script is a simple Javascript code that requires ES6 support. Please ensure
 2. Navigate to the project directory
    run- cd ObjectOrientedProgramming
 3. To run the script, use the following command
-   node index.js
+   run- node index.js
