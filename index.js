@@ -9,7 +9,7 @@ class ClassName {
 }
 
 // usage sample
-class profile {
+class Profile {
     constructor(firstName, lastName, age, dob, address) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -19,7 +19,7 @@ class profile {
     }
 }
 
-const myProfile = new profile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeria")
+const myProfile = new Profile("Abdulmalik", "Amzat", 23, "28/10", "Lagos, Nigeria")
 console.log(myProfile)
 
 // class methods
@@ -44,7 +44,7 @@ console.log(prompt.specialAdd(5))
 
 // Class Inheritance
 // where you can derive a class from another class to form a hierarchy of classes that share a set of attributes and methods.
-class detailedProfile extends profile {
+class detailedProfile extends Profile {
     constructor(firstName, lastName, age, dob, address, role) {
         super(firstName, lastName, age, dob, address)
         this.role = role;
