@@ -1,4 +1,4 @@
-# Contributing to [Your Repository Name]
+# Contributing to oop 
 
 Thanks for taking the time to contribute! Here’s how you can help:
 
