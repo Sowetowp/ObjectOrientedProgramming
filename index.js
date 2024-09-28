@@ -8,7 +8,7 @@ class ClassName {
     }
 }
 
-// usage sample
+// Usage sample
 class Profile {
     constructor(firstName, lastName, age, dob, address) {
         this.firstName = firstName;
