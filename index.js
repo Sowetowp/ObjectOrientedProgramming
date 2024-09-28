@@ -89,57 +89,57 @@ console.log(person.fullName);
 
 class Language {
     constructor(name) {
-      this.name = name;
+        this.name = name;
     }
     static hello() {
-      return "Hello!!";
+        return "Hello!!";
     }
 }
-  
+
 const myLanguage = new Language("Ford");
-  
+
 // You can call 'hello()' on the Language Class:
 console.log(Language.hello());
 
 // But NOT on a Language Object:
 // console.log(myLanguage.hello());
 // this will raise an error.
-  
+
 // ABSTRACTION:used to hide unnecessary information and display only necessary information to the users interacting.
 class Bus {
     constructor(brand) {
-      this.brand = brand;
-      this.speed = 0;
+        this.brand = brand;
+        this.speed = 0;
     }
-  
+
     // Public method to start the Bus
     start() {
-      console.log(`${this.brand} Bus started.`);
-      this._startEngine();
+        console.log(`${this.brand} Bus started.`);
+        this._startEngine();
     }
-  
+
     // Public method to accelerate
     accelerate() {
-      this.speed += 10;
-      console.log(`${this.brand} is accelerating. Speed: ${this.speed} km/h`);
+        this.speed += 10;
+        console.log(`${this.brand} is accelerating. Speed: ${this.speed} km/h`);
     }
-  
+
     // Public method to stop the Bus
     stop() {
-      this.speed = 0;
-      console.log(`${this.brand} has stopped.`);
+        this.speed = 0;
+        console.log(`${this.brand} has stopped.`);
     }
-  
+
     // Private method to start the engine (abstraction)
     _startEngine() {
-      console.log("Engine started. Ready to go!");
+        console.log("Engine started. Ready to go!");
     }
-  }
-  
-  const myBus = new Bus("Toyota");
-  myBus.start();     // Accessible
-  myBus.accelerate(); // Accessible
-  myBus.stop();       // Accessible
-  
+}
+
+const myBus = new Bus("Toyota");
+myBus.start();     // Accessible
+myBus.accelerate(); // Accessible
+myBus.stop();       // Accessible
+
 
 // NOTE: Unlike functions, class declarations are not hoisted. That means that you must declare a class before you can use it.
