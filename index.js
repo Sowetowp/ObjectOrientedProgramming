@@ -161,16 +161,16 @@ class Dog extends Animal {
 
 class Cat extends Animal {
     // Overriding the makeSound method
-    makeSound() {
-        console.log("Cat meows: Meow Meow!");
-    }
+    // makeSound() {
+    //     console.log("Cat meows: Meow Meow!");
+    // }
 }
 
 class Cow extends Animal {
     // Overriding the makeSound method
-    makeSound() {
-        console.log("Cow moos: Moo Moo!");
-    }
+    // makeSound() {
+    //     console.log("Cow moos: Moo Moo!");
+    // }
 }
 
 // Polymorphism in action
