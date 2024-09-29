@@ -44,7 +44,7 @@ const prompt = new calculator(2, 4)
 console.log(prompt.add())
 console.log(prompt.specialAdd(5))
 
-// Class Inheritance
+// Class Inheritance.
 // where you can derive a class from another class to form a hierarchy of classes that share a set of attributes and methods.
 class detailedProfile extends Profile {
     constructor(firstName, lastName, age, dob, address, role) {
