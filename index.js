@@ -1,4 +1,4 @@
-// Object-oriented programming(oop) is a programming paradigm that organizes software design around data, or objects, rather than functions and logic.
+// Object-oriented programming(oop) is a programming paradigm that organizes software design around objects, rather than functions and logic.
 // class: a template for JavaScript objects
 // You will get an error if you do not follow the "strict mode" rules.
 
