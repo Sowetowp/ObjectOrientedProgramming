@@ -1,4 +1,5 @@
 // Object-oriented programming(oop) is a programming paradigm that organizes software design around objects, rather than functions and logic.
+// OOP allows objects to interact with each other using four basic principles: encapsulation, inheritance, polymorphism, and abstraction.
 // class: a template for JavaScript objects
 // You will get an error if you do not follow the "strict mode" rules.
 
