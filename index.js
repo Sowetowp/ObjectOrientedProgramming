@@ -1,3 +1,4 @@
+
 // class: a template for JavaScript objects
 // You will get an error if you do not follow the "strict mode" rules.
 
