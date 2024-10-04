@@ -61,7 +61,7 @@ const myProfile2 = new detailedProfile("Abdulmalik", "Amzat", 23, "28/10", "Lago
 console.log(myProfile2.bio())
 
 // static method
-// getter/setter
+// getter/setter.
 class Person {
     constructor(firstName, lastName) {
         this._firstName = firstName;
