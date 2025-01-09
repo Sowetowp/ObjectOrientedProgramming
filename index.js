@@ -13,7 +13,7 @@ class ClassName {
 // Usage sample
 class Profile {
     constructor(firstName, lastName, age, dob, address) {
-        this.firstName = firstName
+        this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.dob = dob;
