@@ -150,7 +150,7 @@ myBus.stop();       // Accessible
 class Animal {
     // Base class method
     makeSound() {
-        console.log("This animal makes a sound")
+        console.log("This animal makes a sound");
     }
 }
 
